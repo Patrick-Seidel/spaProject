@@ -1,5 +1,5 @@
 const Todoinput = () => {
-    return <div>Todoinput</div>
+    return <div>My ToDo List</div>
 }
 
 export default Todoinput

@@ -1,5 +1,7 @@
 const Header = () => {
-    return <div>Header</div>
+    return <div class='Header'>
+       Window Title
+    </div>
 }
 
 export default Header
