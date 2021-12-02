@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class CreateTodo extends React.Component {
     constructor(props) {
         super(props);
@@ -33,7 +34,7 @@ class CreateTodo extends React.Component {
                     value={this.state.todoText}
                     onChange={this.handleChange}
                 />
-                <button type="submit">Add</button>
+                <button type="submit">Fertig</button>
             </form>
         );
     }

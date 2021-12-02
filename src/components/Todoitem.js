@@ -1,11 +1,16 @@
+
+
+
 function Todoitem({ todo, deleteTodo }) {
     const mine = 1
     return(
-        <li className={mine }>
+       
+        <li className={mine}>
+            <input type='Checkbox' />
             {todo.text}
             {mine && 
-                <button onClick={() => deleteTodo(todo)}>
-                    delete
+                <button class='xButton' onClick={() => deleteTodo(todo)}>
+                    x
                 </button>
                 
             }
@@ -15,3 +20,4 @@ function Todoitem({ todo, deleteTodo }) {
 }
 
 export default Todoitem;
+

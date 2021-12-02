@@ -1,16 +1,90 @@
 .App {
   text-align: center;
+  border: 1px solid black;
+  margin-top: 50px;
 }
 
 div {
-  border: 1px solid black;
-
   width: 300px;
-  text-align: center;
   margin: auto;
+ 
 }
 
 .Header {
-  background-color: green;
- border-radius: 5%;
+  width: 299px;
+  background-color: white;
+ border: 1px solid black;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ justify-content: space-between;
 }
+
+li {
+  border: 1px solid  black;
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.xButton {
+  display: flex;
+  border-radius: 50%;
+  color: white; 
+  background-color: blue;
+  border: none;
+}
+.HeaderButton {
+  display: flex;
+  border-radius: 50%;
+  color: white; 
+  background-color: blue;
+  border: none;
+
+}
+
+.button1 {
+  
+background-color: blue;
+color: white;
+box-shadow: 2px 2px 2px rgba(41, 40, 40, 0.5);
+}
+
+h1 {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 5px;
+
+}
+
+.wrapper { 
+
+  overflow: hidden; 
+
+  display: block; 
+
+  width: 100%; 
+
+} 
+
+
+
+// Unser Element zum verschieben 
+
+.move { 
+
+  position: absolute; 
+
+  width: 150px; 
+
+  height: 150px; 
+
+  left: 0; 
+
+  top: 0; 
+
+  background-color: #333; 
+
+} 
